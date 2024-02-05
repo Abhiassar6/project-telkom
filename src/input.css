@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.toggle-button-line {
+    @apply w-[30px] h-[2px] bg-[white] block my-2 rounded-xl;
+}
+
+.toggle-button-click > span:nth-child(1) {
+    @apply rotate-45;
+}
+
+.toggle-button-click > span:nth-child(2) {
+    @apply scale-0;
+}
+
+.toggle-button-click > span:nth-child(3) {
+    @apply -rotate-45;
+}
+
+body {
+    @apply font-sans;
+}
